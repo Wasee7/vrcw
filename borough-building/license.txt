@@ -1,0 +1,11 @@
+Model Information:
+* title:	Browns-McPherson Building - WPU
+* source:	https://sketchfab.com/3d-models/browns-mcpherson-building-wpu-fce62985f84a41b0a5093117ba650bf1
+* author:	Seifurt (https://sketchfab.com/seifurt)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Browns-McPherson Building - WPU" (https://sketchfab.com/3d-models/browns-mcpherson-building-wpu-fce62985f84a41b0a5093117ba650bf1) by Seifurt (https://sketchfab.com/seifurt) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
