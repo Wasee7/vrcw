@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LSBU Cafe - LSBU VR Tour</title>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+<body style="background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('images/bg.webp') no-repeat center center fixed; background-size: cover;">
+    <!-- Header -->
+    <header>
+      <div class="header-left"></div>
+      <div class="header-center">
+        <img id="logo" src="images/logo.png" alt="University Logo" />
+      </div>
+      <div class="header-right"></div>
+    </header>
+
+  <!-- Page Wrapper -->
+  <div class="subpage-wrapper">
+    <div style="width: 100%; max-width: 500px; text-align: left; margin-bottom: 10px;">
+      <button onclick="goBack()" class="back-btn">⬅ Back</button>
+    </div>
+
+    <div class="subpage-card">
+      <!-- Scene Container -->
+      <div class="scene-container">
+        <video
+          id="pVideo"
+          width="100%"
+          style="display: block;"
+		  controls
+          preload="metadata"
+          muted
+        >
+          <source src="videos/cafe.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <!-- Info -->
+      <div class="popup-content">
+        <h1>LSBU Cafe</h1>
+        <p>This is a walkthrough of the LSBU Cafe. For a full experience, please use an AR/VR headset!</p>
+        <button class="play-btn" onclick="togglePlay()">Play</button>
+		          <img
+            src="images/cafe.webp"
+            alt="Click to expand"
+            class="thumb-preview"
+            onclick="openLightbox()"
+          />
+      </div>
+    </div>
+  </div>
+
+<footer style="margin-top: 40px; padding: 20px; text-align: center; color: white; font-size: 14px; background: rgba(255, 255, 255, 0.1);">
+  © 2025 London South Bank University · All rights reserved.</footer>
+    <script src="script.js"></script>
+<div id="lightboxModal" onclick="closeLightbox()">
+  <span>&times;</span>
+  <img src="images/cafe.webp" alt="Full view" />
+</div>
+
+  </body>
+</html>

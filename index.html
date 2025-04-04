@@ -20,7 +20,92 @@
   Welcome to the LSBU Virtual Reality Tour. Explore key buildings across our Southwark campus in immersive 3D. Click on each building below to start your walkthrough and experience the campus like never before.
 </p>
 
- 
+    <section id="carousel">
+      <div class="building-card">
+        <div class="scene-container">
+          <a-scene embedded vr-mode-ui="enabled: true">
+            <a-entity
+              gltf-model="borough-building/scene.gltf"
+              position="0 1 -2"
+              scale="1.2 1.2 1.2"
+              animation="property: rotation; to: 0 50 0; loop: true; dur: 15000; easing: linear;"
+            ></a-entity>
+          </a-scene>
+        </div>
+        <p>K2</p>
+        <button class="enter-btn" onclick="window.location.href='k2.html'">
+          Enter
+        </button>
+      </div>
+
+      <div class="building-card">
+        <div class="scene-container">
+          <a-scene embedded vr-mode-ui="enabled: true">
+            <a-entity
+              gltf-model="Faraday-wing/scene.gltf"
+              position="0 1 -2"
+              scale="0.1 0.1 0.1"
+              animation="property: rotation; to: 0 50 0; loop: true; dur: 15000; easing: linear;"
+            ></a-entity>
+          </a-scene>
+        </div>
+        <p>LSBU Cafe</p>
+        <button class="enter-btn" onclick="window.location.href='cafe.html'">
+          Enter
+        </button>
+      </div>
+
+      <div class="building-card">
+        <div class="scene-container">
+          <a-scene embedded vr-mode-ui="enabled: true">
+            <a-entity
+              gltf-model="keyworth/scene.gltf"
+              position="0 1 -2"
+              scale="0.6 0.6 0.6"
+              animation="property: rotation; to: 0 50 0; loop: true; dur: 15000; easing: linear;"
+            ></a-entity>
+          </a-scene>
+        </div>
+        <p>Keyworth Centre</p>
+        <button class="enter-btn" onclick="window.location.href='keyworth.html'">
+          Enter
+        </button>
+      </div>
+
+      <div class="building-card">
+        <div class="scene-container">
+          <a-scene embedded vr-mode-ui="enabled: true">
+            <a-entity
+              gltf-model="modern_luxury_villa_house_building_home/scene.gltf"
+              position="0 0.8 -2"
+              scale="0.08 0.08 0.08"
+              animation="property: rotation; to: 0 50 0; loop: true; dur: 15000; easing: linear;"
+            ></a-entity>
+          </a-scene>
+        </div>
+        <p>LSBU Library</p>
+        <button class="enter-btn" onclick="window.location.href='library.html'">
+          Enter
+        </button>
+      </div>
+
+      <div class="building-card">
+        <div class="scene-container">
+          <a-scene embedded vr-mode-ui="enabled: true">
+            <a-entity
+              gltf-model="student_center/scene.gltf"
+              position="0 0.8 -2"
+              scale="0.04 0.04 0.04"
+              animation="property: rotation; to: 0 50 0; loop: true; dur: 15000; easing: linear;"
+            ></a-entity>
+          </a-scene>
+        </div>
+        <p>Student Centre</p>
+        <button class="enter-btn" onclick="window.location.href='studentcentre.html'">
+          Enter
+        </button>
+      </div>
+    </section>
 <footer style="margin-top: 40px; padding: 20px; text-align: center; color: white; font-size: 14px; background: rgba(255, 255, 255, 0.1);">
   © 2025 London South Bank University · All rights reserved.</footer>
 
